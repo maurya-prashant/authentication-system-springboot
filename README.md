@@ -12,6 +12,7 @@ This project is designed for **deep learning of backend architecture**, not just
 * Build a **scalable backend architecture**
 * Implement **JWT-based stateless security**
 * Practice **real-world backend design patterns**
+* Explore **advanced backend systems (caching, monitoring, rate limiting, etc.)**
 
 ---
 
@@ -248,31 +249,147 @@ Tables:
 
 ---
 
+# ⚡ Advanced Features (Learning Extensions)
+
+These features extend the system toward **production-level backend capabilities**:
+
+---
+
+## ⚡ Caching (Redis)
+
+* Cache user data / tokens
+* Reduce database load
+* Store OTPs / sessions
+
+---
+
+## 📊 Logging System
+
+* Track login attempts
+* Monitor errors & suspicious activity
+
+---
+
+## 📈 Monitoring & Metrics
+
+* Application health tracking
+* Performance insights
+
+**Tools:**
+
+* Spring Boot Actuator
+* Prometheus + Grafana
+
+---
+
+## 🚦 Rate Limiting
+
+* Prevent brute force attacks
+* Limit login attempts per IP
+
+---
+
+## 📧 Email Service
+
+* Email verification
+* Password reset links
+
+---
+
+## 🔐 Two-Factor Authentication (2FA)
+
+* OTP-based additional security
+
+---
+
+## 📱 Session / Device Management
+
+* Track logged-in devices
+* Logout from all devices
+
+---
+
+## 🧾 Audit Logging
+
+* Track user activity
+* Maintain system logs
+
+---
+
+## 🧩 Global API Response Format
+
+```json
+{
+  "status": "success",
+  "message": "User created",
+  "data": {}
+}
+```
+
+---
+
+## 🔒 Secure Configuration
+
+* Store secrets securely (JWT key, DB credentials)
+* Use environment variables
+
+---
+
+## 🌍 CORS Configuration
+
+* Enable frontend-backend communication
+
+---
+
+## 🧪 Testing
+
+* Unit Testing (JUnit)
+* Integration Testing
+
+---
+
+## 🧱 DTO Mapping
+
+* Use MapStruct for clean mapping
+
+---
+
+## 📦 Dockerization
+
+* Containerize the application
+
+---
+
+## ☁️ Deployment
+
+* AWS / Render / Railway
+
+---
+
 ## 🧠 Learning Outcomes
 
 By completing this project, you will:
 
-* Understand **layered architecture**
-* Learn **how Spring Security works internally**
-* Implement **real-world authentication systems**
-* Gain confidence in **backend development**
+* Understand **layered architecture deeply**
+* Master **Spring Security & JWT**
+* Learn **real-world backend patterns**
+* Gain confidence in **building scalable systems**
 
 ---
 
 ## ⚠️ Notes
 
 * Built step-by-step for learning
-* Avoid copying code blindly
-* Focus on understanding flow between layers
+* Focus on understanding, not copying
+* Add features incrementally
 
 ---
 
 ## 🚀 Future Improvements
 
-* Dockerization
-* Deployment (AWS / Render / Railway)
 * CI/CD pipeline
-* Integration testing
+* Advanced monitoring
+* Distributed systems integration
 
 ---
 
